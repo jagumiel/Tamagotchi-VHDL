@@ -1,0 +1,17 @@
+	component tamagotchi is 
+	 port(  clk, cl 						: in 	std_logic;
+			sendmkp  						: in 	std_logic;
+			sendmkth				        	: in 	std_logic;							
+			key								: in	unsigned(5 downto 0);
+			ta, ha							: in	unsigned(7 downto 0);
+			
+			peso								: out	unsigned(6 downto 0);
+			pulso								: out	unsigned(9 downto 0);
+			tensh, tensl					: out	unsigned(6 downto 0);
+			coles, azuc, alcoh			: out	unsigned(9 downto 0);
+			temp, cans						: out	unsigned(6 downto 0);
+			cara								: out	std_logic_vector(63 downto 0);
+			hora, minu						: out	unsigned(5 downto 0);
+			str_msg							: out	string(1 to 20);
+			sendacktam          			: out std_logic);
+	end component;

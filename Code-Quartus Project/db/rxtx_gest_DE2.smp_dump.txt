@@ -1,0 +1,48 @@
+
+State Machine - |rxtx_gest_DE2|rxtx_gest:inst_rxtx_gest|tx_answer:inst_tx_answer|tx_char:inst_tx_char|st
+Name st.ackwait st.putbit st.waitbit st.load st.idle 
+st.idle 0 0 0 0 0 
+st.load 0 0 0 1 1 
+st.waitbit 0 0 1 0 1 
+st.putbit 0 1 0 0 1 
+st.ackwait 1 0 0 0 1 
+
+State Machine - |rxtx_gest_DE2|rxtx_gest:inst_rxtx_gest|tx_answer:inst_tx_answer|tx_cont:inst_tx_cont|st
+Name st.ackwait st.nextchar st.chkcr st.waitsend st.ldtxt st.idle 
+st.idle 0 0 0 0 0 0 
+st.ldtxt 0 0 0 0 1 1 
+st.waitsend 0 0 0 1 0 1 
+st.chkcr 0 0 1 0 0 1 
+st.nextchar 0 1 0 0 0 1 
+st.ackwait 1 0 0 0 0 1 
+
+State Machine - |rxtx_gest_DE2|rxtx_gest:inst_rxtx_gest|com_gest:inst_com_gest|ep
+Name ep.e7 ep.e6 ep.e5 ep.e4 ep.e3 ep.e2 ep.e1 ep.e0 
+ep.e0 0 0 0 0 0 0 0 0 
+ep.e1 0 0 0 0 0 0 1 1 
+ep.e2 0 0 0 0 0 1 0 1 
+ep.e3 0 0 0 0 1 0 0 1 
+ep.e4 0 0 0 1 0 0 0 1 
+ep.e5 0 0 1 0 0 0 0 1 
+ep.e6 0 1 0 0 0 0 0 1 
+ep.e7 1 0 0 0 0 0 0 1 
+
+State Machine - |rxtx_gest_DE2|rxtx_gest:inst_rxtx_gest|rx_command:inst_rx_command|rx_comm:inst_rx_cont|ep
+Name ep.e3 ep.e2 ep.e1 ep.e0 
+ep.e0 0 0 0 0 
+ep.e1 0 0 1 1 
+ep.e2 0 1 0 1 
+ep.e3 1 0 0 1 
+
+State Machine - |rxtx_gest_DE2|rxtx_gest:inst_rxtx_gest|rx_command:inst_rx_command|rx_char:inst_rx_char|ep
+Name ep.e9 ep.e8 ep.e7 ep.e6 ep.e5 ep.e4 ep.e3 ep.e2 ep.e1 ep.e0 
+ep.e0 0 0 0 0 0 0 0 0 0 0 
+ep.e1 0 0 0 0 0 0 0 0 1 1 
+ep.e2 0 0 0 0 0 0 0 1 0 1 
+ep.e3 0 0 0 0 0 0 1 0 0 1 
+ep.e4 0 0 0 0 0 1 0 0 0 1 
+ep.e5 0 0 0 0 1 0 0 0 0 1 
+ep.e6 0 0 0 1 0 0 0 0 0 1 
+ep.e7 0 0 1 0 0 0 0 0 0 1 
+ep.e8 0 1 0 0 0 0 0 0 0 1 
+ep.e9 1 0 0 0 0 0 0 0 0 1 

@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="rxtx_gest_DE2">
+		<CBX_INST_ENTRY INSTANCE_NAME="|rxtx_gest_DE2|rxtx_gest:inst_rxtx_gest|tx_answer:inst_tx_answer|tx_cont:inst_tx_cont|lpm_divide:Div16" CBX_FILE_NAME="lpm_divide_vcm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|rxtx_gest_DE2|rxtx_gest:inst_rxtx_gest|tx_answer:inst_tx_answer|tx_cont:inst_tx_cont|lpm_divide:Mod2" CBX_FILE_NAME="lpm_divide_85m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|rxtx_gest_DE2|rxtx_gest:inst_rxtx_gest|tx_answer:inst_tx_answer|tx_cont:inst_tx_cont|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_vcm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|rxtx_gest_DE2|rxtx_gest:inst_rxtx_gest|tx_answer:inst_tx_answer|tx_cont:inst_tx_cont|lpm_divide:Div4" CBX_FILE_NAME="lpm_divide_aem.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|rxtx_gest_DE2|rxtx_gest:inst_rxtx_gest|tx_answer:inst_tx_answer|tx_cont:inst_tx_cont|lpm_divide:Div8" CBX_FILE_NAME="lpm_divide_aem.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|rxtx_gest_DE2|rxtx_gest:inst_rxtx_gest|tx_answer:inst_tx_answer|tx_cont:inst_tx_cont|lpm_divide:Mod16" CBX_FILE_NAME="lpm_divide_45m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|rxtx_gest_DE2|rxtx_gest:inst_rxtx_gest|tx_answer:inst_tx_answer|tx_cont:inst_tx_cont|lpm_divide:Mod3" CBX_FILE_NAME="lpm_divide_65m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|rxtx_gest_DE2|rxtx_gest:inst_rxtx_gest|tx_answer:inst_tx_answer|tx_cont:inst_tx_cont|lpm_divide:Div1" CBX_FILE_NAME="lpm_divide_1dm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|rxtx_gest_DE2|rxtx_gest:inst_rxtx_gest|tx_answer:inst_tx_answer|tx_cont:inst_tx_cont|lpm_divide:Div5" CBX_FILE_NAME="lpm_divide_dem.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|rxtx_gest_DE2|rxtx_gest:inst_rxtx_gest|tx_answer:inst_tx_answer|tx_cont:inst_tx_cont|lpm_divide:Div9" CBX_FILE_NAME="lpm_divide_dem.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|rxtx_gest_DE2|rxtx_gest:inst_rxtx_gest|tx_answer:inst_tx_answer|tx_cont:inst_tx_cont|lpm_divide:Mod0" CBX_FILE_NAME="lpm_divide_45m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|rxtx_gest_DE2|rxtx_gest:inst_rxtx_gest|tx_answer:inst_tx_answer|tx_cont:inst_tx_cont|lpm_divide:Mod4" CBX_FILE_NAME="lpm_divide_q7m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|rxtx_gest_DE2|rxtx_gest:inst_rxtx_gest|tx_answer:inst_tx_answer|tx_cont:inst_tx_cont|lpm_divide:Mod8" CBX_FILE_NAME="lpm_divide_q7m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|rxtx_gest_DE2|rxtx_gest:inst_rxtx_gest|tx_answer:inst_tx_answer|tx_cont:inst_tx_cont|lpm_divide:Div2" CBX_FILE_NAME="lpm_divide_1dm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|rxtx_gest_DE2|rxtx_gest:inst_rxtx_gest|tx_answer:inst_tx_answer|tx_cont:inst_tx_cont|lpm_divide:Div6" CBX_FILE_NAME="lpm_divide_0dm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|rxtx_gest_DE2|rxtx_gest:inst_rxtx_gest|tx_answer:inst_tx_answer|tx_cont:inst_tx_cont|lpm_divide:Mod1" CBX_FILE_NAME="lpm_divide_85m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|rxtx_gest_DE2|rxtx_gest:inst_rxtx_gest|tx_answer:inst_tx_answer|tx_cont:inst_tx_cont|lpm_divide:Mod5" CBX_FILE_NAME="lpm_divide_q7m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|rxtx_gest_DE2|rxtx_gest:inst_rxtx_gest|tx_answer:inst_tx_answer|tx_cont:inst_tx_cont|lpm_divide:Mod9" CBX_FILE_NAME="lpm_divide_q7m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|rxtx_gest_DE2|rxtx_gest:inst_rxtx_gest|tx_answer:inst_tx_answer|tx_cont:inst_tx_cont|lpm_divide:Div3" CBX_FILE_NAME="lpm_divide_0dm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|rxtx_gest_DE2|rxtx_gest:inst_rxtx_gest|tx_answer:inst_tx_answer|tx_cont:inst_tx_cont|lpm_divide:Mod6" CBX_FILE_NAME="lpm_divide_65m.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

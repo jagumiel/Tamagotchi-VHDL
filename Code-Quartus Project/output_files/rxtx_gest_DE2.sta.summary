@@ -1,0 +1,53 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'CLOCK_50'
+Slack : -15.545
+TNS   : -1027.959
+
+Type  : Slow Model Setup 'rxtx_gest:inst_rxtx_gest|com_gest:inst_com_gest|ep.e1'
+Slack : -1.708
+TNS   : -11.729
+
+Type  : Slow Model Hold 'rxtx_gest:inst_rxtx_gest|com_gest:inst_com_gest|ep.e1'
+Slack : -2.296
+TNS   : -12.609
+
+Type  : Slow Model Hold 'CLOCK_50'
+Slack : -2.042
+TNS   : -4.182
+
+Type  : Slow Model Minimum Pulse Width 'CLOCK_50'
+Slack : -1.380
+TNS   : -231.380
+
+Type  : Slow Model Minimum Pulse Width 'rxtx_gest:inst_rxtx_gest|com_gest:inst_com_gest|ep.e1'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Setup 'CLOCK_50'
+Slack : -6.195
+TNS   : -342.320
+
+Type  : Fast Model Setup 'rxtx_gest:inst_rxtx_gest|com_gest:inst_com_gest|ep.e1'
+Slack : -0.143
+TNS   : -0.461
+
+Type  : Fast Model Hold 'rxtx_gest:inst_rxtx_gest|com_gest:inst_com_gest|ep.e1'
+Slack : -1.436
+TNS   : -8.080
+
+Type  : Fast Model Hold 'CLOCK_50'
+Slack : -1.394
+TNS   : -3.302
+
+Type  : Fast Model Minimum Pulse Width 'CLOCK_50'
+Slack : -1.380
+TNS   : -231.380
+
+Type  : Fast Model Minimum Pulse Width 'rxtx_gest:inst_rxtx_gest|com_gest:inst_com_gest|ep.e1'
+Slack : 0.500
+TNS   : 0.000
+
+------------------------------------------------------------
